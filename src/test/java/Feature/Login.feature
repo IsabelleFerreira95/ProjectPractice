@@ -1,0 +1,8 @@
+Feature: Login Functionalities
+
+  Scenario: Valid Login Admin
+    Given Browser is initialized and launch HRMS website
+    And user enters valid username and password
+    Then user clicks on login button
+    And user is logged in successfully
+    And close the browser
